@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuNavigation">
+
+    <Button
+        android:id="@+id/Resume"
+        android:layout_width="161dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="92dp"
+        android:text="Resume"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="123dp" />
+
+    <Button
+        android:id="@+id/Account"
+        android:layout_width="158dp"
+        android:layout_height="85dp"
+        android:text="Account"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="155dp"
+        android:layout_height="91dp"
+        android:text="Play"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="152dp"
+        android:layout_height="85dp"
+        android:text="Settings"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="149dp"
+        android:layout_height="86dp"
+        android:text="Log Out"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="501dp" />
+</android.support.constraint.ConstraintLayout>

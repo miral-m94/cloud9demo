@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:text="Home Page"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:text="Settings"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/Account"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:text="Account"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/Challenges"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:text="Challenges"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:id="@+id/Home"
+        android:layout_width="418dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="635dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+</android.support.constraint.ConstraintLayout>
